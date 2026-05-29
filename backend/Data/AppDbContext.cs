@@ -7,10 +7,10 @@ public class AppDbContext : DbContext
 {
     public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) { }
 
-    public DbSet<Hr> HrUsers { get; set; }
-    public DbSet<Candidate> Candidates { get; set; }
-    public DbSet<Interview> Interviews { get; set; }
-    public DbSet<Feedback> Feedbacks { get; set; }
+    public DbSet<Hr> hrusers { get; set; }
+    public DbSet<Candidate> candidates { get; set; }
+    public DbSet<Interview> interviews { get; set; }
+    public DbSet<Feedback> feedbacks { get; set; }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
