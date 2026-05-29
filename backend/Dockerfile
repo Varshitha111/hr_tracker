@@ -1,9 +1,3 @@
-
----
-
-# Your Dockerfile should contain ONLY this:
-
-```dockerfile id="jlwmy7"
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 WORKDIR /src
 
